@@ -6,8 +6,8 @@ function Home() {
   return (
     <main className="min-h-screen">
       {/* Section 1: Intro */}
-      <section className="section-1 h-screen flex flex-col sm:flex-row justify-center items-center fade-in">
-        <section className="left w-full sm:w-1/2 text-white p-12">
+      <section className="section-1 h-[600px] sm:h-[700px] flex flex-col sm:flex-row justify-center items-center fade-in">
+        <section className="left w-full sm:w-1/2 text-white p-6 sm:p-12">
           <h1 className="text-3xl text-semibold">
             Hi There, <span className={styles.wave}>👋</span>
           </h1>
@@ -35,18 +35,18 @@ function Home() {
         </section>
 
         <section className="right w-full sm:w-1/3">
-          {/* Replace with a relevant image */}
+          {/* Adjusting the image size for better mobile view */}
           <img
             src="/info.png"
             alt="Developer Workspace"
-            className="w-full h-auto object-cover bg-none rounded-2xl"
+            className="w-[80%] sm:w-[60%] md:w-[50%] h-auto object-cover bg-none items-center rounded-2xl"
           />
         </section>
       </section>
 
       {/* Section 2: About */}
-      <section className="section-2 h-screen flex items-center px-12 py-20 text-white text-2xl fade-in">
-        <div className="left w-[80%] flex flex-col gap-12">
+      <section className="section-2 h-auto sm:h-screen flex items-center px-6 sm:px-12 py-20 text-white text-2xl fade-in">
+        <div className="left w-full sm:w-[80%] flex flex-col gap-12">
           <h1 className="text-4xl font-semibold text-center py-6">
             LET ME <span className="text-purple-500">INTRODUCE</span> MYSELF
           </h1>
