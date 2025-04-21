@@ -10,7 +10,7 @@ function Contact() {
   const onSubmit = async (data) => {
     console.log(data);
     try {
-      const response = await fetch("https://formsubmit.co/ajax/cf1c01cdec31e169a3b4f9ac275971bc", {
+      const response = await fetch("https://formsubmit.co/ajax/3d81378560720e3a5c707876d896a4c7", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Certificate() {
   const [clickedHR, setClickedHR] = useState(false);
-  const [clickedSS, setClickedSS] = useState(false);
+
   return (
     <>
       <main className="min-h-screen text-white p-12 flex flex-col gap-8">
@@ -23,18 +23,6 @@ function Certificate() {
             />
           </div>
 
-          <div
-            className={`certificate border-1 w-[320px] h-[220px] p-2 rounded-lg cursor-pointer transition-all duration-300 ${
-                clickedSS ? "w-full h-full" : ""
-            }`}
-            onClick={() => setClickedSS(!clickedSS)}
-          >
-            <img
-              src="/ss-certificate.png"
-              alt=""
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
         </div>
       </main>
     </>
