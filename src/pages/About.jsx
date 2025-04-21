@@ -11,10 +11,10 @@ function About() {
     <>
       <main className="text-white">
         {/* Section 1: About Me */}
-        <section className="section-1 h-screen px-6 md:px-12 flex flex-col md:flex-row justify-center items-center gap-8">
+        <section className="section-1 h-screen px-6 md:px-12 flex flex-col md:flex-row justify-center items-center gap-8 pt-12 sm:pt-16">
           <div className="left w-full md:w-[60%] px-6 text-xl flex flex-col gap-6">
             <h1 className="text-3xl sm:text-4xl font-semibold text-center">
-              Know Who <span className="text-purple-500">I'm</span>
+              Know Who <span className="text-purple-500 p-2">I'm</span>
             </h1>
 
             <h2 className="text-lg sm:text-xl">
